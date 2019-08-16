@@ -8,16 +8,11 @@
     "128": "icons/icon_128.png"
   },
   "browser_action": {
-    "default_title": "voltik-live",
-    "default_popup": "popup/popup.html"
+    "default_title": "voltik-live"
   },
   "background": {
     "scripts": [
       "background.js"
     ]
-  },
-  "options_ui": {
-    "page": "options/options.html",
-    "chrome_style": true
   }
-}
+  }
